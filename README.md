@@ -221,3 +221,11 @@ Data source 3:
   "jobTitle": "Technology Superhero"
 }
 ```
+
+This example shows very well the benefits of using JSON-LD. Originally, data source 2
+had attributes `first_name` and `last_name`. Data source 3 had attributes
+`firstName` and `lastName`. For a human it's obvious that `last_name` and
+`lastName` mean the same thing, but for a computer processing the data they are
+two different things. After normalizing the data both data sources use
+`familyName` and a computer processing the data knows that the attributes have
+the same meaning. 
