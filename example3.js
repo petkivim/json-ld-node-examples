@@ -1,6 +1,6 @@
 const jsonld = require('jsonld')
 
-// Retrofitting an Existing API with JSON-LD.
+// Retrofitting an existing API with JSON-LD.
 // A JSON object using ad hoc terminology and without defined context.
 const doc = {
   "alias": "jdoe",

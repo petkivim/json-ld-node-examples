@@ -48,7 +48,7 @@ const doc3 = {
 }
 
 async function compact(doc, name) {
-  const compacted = await jsonld.compact(doc, "http://schema.org/");
+  const compacted = await jsonld.compact(doc, "http://schema.org/")
   console.log(`------COMPACTED_BEGINS (${name})------`)
   console.log(JSON.stringify(compacted, null, 2))
   console.log("------COMPACTED_ENDS------")
