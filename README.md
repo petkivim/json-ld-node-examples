@@ -125,13 +125,14 @@ to Shema.org context translates the ad hoc terminology to Schema.org terms.
 
 ## Example 4
 
-[Example 4](example4.js) shows how to map data from different sources that
-use ad hoc key names to the Schema.org standard URLs. After the data is normalized
+[Example 4](example4.js) shows how to map data from different sources and
+translate ad hoc terminology to Schema.org terms. After the data is normalized,
 it can be combined.
 
 **Original values:**
 
 ```
+Data source 1:
 {
   "@context": {
     "@vocab": "http://schema.org/",
@@ -148,6 +149,7 @@ it can be combined.
 ```
 
 ```
+Data source 2:
 {
   "@context": {
     "@vocab": "http://schema.org/",
@@ -168,6 +170,7 @@ it can be combined.
 ```
 
 ```
+Data source 3:
 {
   "@context": {
     "@vocab": "http://schema.org/",
@@ -184,6 +187,7 @@ it can be combined.
 **Normalized values:**
 
 ```
+Data source 1:
 {
   "@context": "http://schema.org/",
   "addressCountry": "fi",
@@ -194,6 +198,7 @@ it can be combined.
 ```
 
 ```
+Data source 2:
 {
   "@context": "http://schema.org/",
   "alternateName": [
@@ -208,6 +213,7 @@ it can be combined.
 ```
 
 ```
+Data source 3:
 {
   "@context": "http://schema.org/",
   "familyName": "Doe",
