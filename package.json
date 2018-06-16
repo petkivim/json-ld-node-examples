@@ -1,0 +1,14 @@
+{
+  "name": "json-ld-node-examples",
+  "version": "1.0.0",
+  "description": "JSON-LD examples using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petteri Kivimäki",
+  "license": "MIT",
+  "dependencies": {
+    "jsonld": "^1.0.2"
+  }
+}
